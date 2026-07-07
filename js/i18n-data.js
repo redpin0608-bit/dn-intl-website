@@ -40,7 +40,7 @@ window.I18N_DICT = {
       i2: { title: "3,000만+ 팔로워 인플루언서 네트워크", desc: "위챗채널·콰이쇼우·샤오홍슈 등 대형 MCN 네트워크로 빠른 시장 반응을 확인합니다." },
       i3: { title: "선(先) 테스트, 후(後) 확장", desc: "라이브커머스 테스트 판매로 리스크를 최소화한 뒤 정식 유통 확장을 진행합니다." },
       i4: { title: "원스톱 사후관리", desc: "MOU 체결 이후 후속 판매·정산·컴플라이언스까지 지속 관리합니다." },
-      panel: { quote: "\"실제 현지 인플루언서 · 스토어 · 상품페이지 · 피드백 — 현지 중국 소비자들의 반응을 데이터로 검증하고, 성공 가능성을 확인한 후 확장하는 시스템입니다.\"", name: "DN INTL. 파트너십 네트워크", role: "한중 비즈니스 협력 파트너십" }
+      panel: { quote: "\"실제 현지 인플루언서 · 스토어 · 상품페이지 · 피드백<br>— 현지 중국 소비자들의 반응을 데이터로 검증한 후, 판매를 확장하는 시스템입니다.\"", name: "DN INTL. 파트너십 네트워크", role: "한중 비즈니스 협력 파트너십" }
     },
     route: {
       kr: { title: "Korea", desc: "DN INTL. 본사<br>한국 브랜드 소싱 & 발굴" },
@@ -115,7 +115,7 @@ window.I18N_DICT = {
       i2: { title: "30M+ follower influencer network", desc: "Large MCN networks across WeChat Channels, Kuaishou and Xiaohongshu let us read the market fast." },
       i3: { title: "Test first, then scale", desc: "We de-risk with live-commerce test sales before moving to full distribution." },
       i4: { title: "One-stop after-care", desc: "We keep managing sales, settlement and compliance long after the MOU is signed." },
-      panel: { quote: "\"Real local influencers, real stores, real product pages, real feedback — a system that validates real Chinese consumer response with data, confirms the odds of success, and only then scales.\"", name: "DN INTL. Partnership Network", role: "Korea–China business partnership" }
+      panel: { quote: "\"Real local influencers, real stores, real product pages, real feedback<br>— a system that validates real Chinese consumer response with data, then scales sales.\"", name: "DN INTL. Partnership Network", role: "Korea–China business partnership" }
     },
     route: {
       kr: { title: "Korea", desc: "DN INTL. headquarters<br>Korean brand sourcing & scouting" },
@@ -190,7 +190,7 @@ window.I18N_DICT = {
       i2: { title: "3000万+粉丝网红网络", desc: "微信视频号、快手、小红书等大型MCN网络，快速验证市场反应。" },
       i3: { title: "先测试，后扩张", desc: "通过直播电商测试销售降低风险，再进行正式渠道扩张。" },
       i4: { title: "一站式售后管理", desc: "MOU签约后持续跟进销售、结算与合规事项。" },
-      panel: { quote: "\"真实的本地网红 · 门店 · 商品页面 · 反馈 —— 用数据验证中国当地消费者的真实反应，确认成功可能性后再进行扩张的体系。\"", name: "DN INTL. 合作伙伴网络", role: "韩中商务合作伙伴关系" }
+      panel: { quote: "\"真实的本地网红 · 门店 · 商品页面 · 反馈<br>—— 用数据验证中国当地消费者的真实反应后，扩大销售的体系。\"", name: "DN INTL. 合作伙伴网络", role: "韩中商务合作伙伴关系" }
     },
     route: {
       kr: { title: "韩国", desc: "DN INTL. 总部<br>韩国品牌寻源 & 发掘" },

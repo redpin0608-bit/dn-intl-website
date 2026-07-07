@@ -251,14 +251,17 @@ button { font-family: inherit; cursor: pointer; }
   border-bottom: 1px solid var(--color-line);
   padding: 30px 0;
 }
-.logo-strip .container { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
-.logo-strip .label { font-size: 13px; font-weight: 700; color: var(--color-ink-soft); white-space: nowrap; }
-.logo-strip .marks { display: flex; gap: 28px; flex-wrap: wrap; flex: 1; }
+.logo-strip .container { display: flex; align-items: center; gap: 28px; flex-wrap: nowrap; }
+.logo-strip .label { font-size: 13px; font-weight: 700; color: var(--color-ink-soft); white-space: nowrap; flex: none; }
+.logo-strip .marks {
+  display: flex; align-items: center; gap: 26px; flex-wrap: nowrap; flex: 1;
+  overflow-x: auto; padding: 4px 2px; scrollbar-width: thin;
+}
 .logo-strip .marks span {
   font-weight: 700; color: var(--color-navy-700); opacity: 0.8; font-size: 14px;
   letter-spacing: 0.02em; white-space: nowrap;
 }
-.logo-chip { display: flex; align-items: center; gap: 9px; }
+.logo-chip { display: flex; align-items: center; gap: 9px; flex: none; }
 .logo-chip svg { width: 30px; height: 30px; flex: none; }
 
 /* ---------------- Services ---------------- */
