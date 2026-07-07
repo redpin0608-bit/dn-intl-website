@@ -34,13 +34,13 @@ window.I18N_DICT = {
       p8: { title: "최종 리포트 & 사후관리", desc: "성과 리포트 제공 및 후속 판매 지원" }
     },
     why: {
-      eyebrow: "Why DN INTL.", title: "현지에 직접 거점을 둔<br>실행형 파트너",
+      eyebrow: "Why DN INTL.", title: "현지에 직접 거점을 둔 <span class=\"accent\">실행형 파트너</span>",
       lede: "보고서만 전달하는 컨설팅이 아니라, 중국 현지 파트너 팀이 직접 실행까지 책임집니다.",
       i1: { title: "중국 현지 파트너와 직접 협력 운영", desc: "중국 주요 도시의 검증된 파트너십 네트워크로 현지 실행력을 확보했습니다." },
       i2: { title: "3,000만+ 팔로워 인플루언서 네트워크", desc: "위챗채널·콰이쇼우·샤오홍슈 등 대형 MCN 네트워크로 빠른 시장 반응을 확인합니다." },
       i3: { title: "선(先) 테스트, 후(後) 확장", desc: "라이브커머스 테스트 판매로 리스크를 최소화한 뒤 정식 유통 확장을 진행합니다." },
       i4: { title: "원스톱 사후관리", desc: "MOU 체결 이후 후속 판매·정산·컴플라이언스까지 지속 관리합니다." },
-      panel: { quote: "\"실제 현지 인플루언서 · 스토어 · 상품페이지 · 피드백 — 현지의 진짜 소비자 반응을 데이터로 검증하고, 성공 가능성을 확인한 후 확장합니다.\"", name: "DN INTL. 파트너십 네트워크", role: "한중 비즈니스 협력 파트너십" }
+      panel: { quote: "\"실제 현지 인플루언서 · 스토어 · 상품페이지 · 피드백 — 현지 중국 소비자들의 반응을 데이터로 검증하고, 성공 가능성을 확인한 후 확장하는 시스템입니다.\"", name: "DN INTL. 파트너십 네트워크", role: "한중 비즈니스 협력 파트너십" }
     },
     route: {
       kr: { title: "Korea", desc: "DN INTL. 본사<br>한국 브랜드 소싱 & 발굴" },
@@ -54,7 +54,7 @@ window.I18N_DICT = {
       p2: { desc: "위챗채널·콰이쇼우·샤오홍슈 등에서 합산 3,000만+ 팔로워를 보유한 인플루언서·라이브커머스 리소스 네트워크와 협력합니다.", name: "인플루언서 · MCN 네트워크", role: "MCN · 인플루언서 네트워크" },
       p3: { desc: "한국 중소·스타트업 브랜드를 발굴해 중국 파트너·투자자와 연결하는 DN INTL.의 국내 소싱 네트워크입니다.", name: "한국 브랜드 소싱 네트워크", role: "DN INTL. · 국내 파트너십" }
     },
-    cta: { title: "중국 시장 진출, 지금 문의해보세요", lede: "시장조사부터 라이브커머스 테스트, MOU 체결까지 — 첫 상담은 무료로 진행됩니다.", btn: "무료 상담 신청하기" },
+    cta: { title: "중국 시장 진출, 지금 문의해보세요", lede: "시장조사부터 라이브커머스 테스트, MOU 체결까지 — <span style=\"white-space:nowrap\">첫 상담은 무료로 진행됩니다.</span>", btn: "무료 상담 신청하기" },
     contact: {
       eyebrow: "Contact", title: "중국 진출, 지금 상담하세요", lede: "담당자가 확인 후 1~2영업일 내로 연락드립니다.",
       phone: { label: "전화 문의" }, email: { label: "이메일 문의" }, office: { label: "거점", value: "대한민국 · 중국 주요 도시" }
@@ -109,13 +109,13 @@ window.I18N_DICT = {
       p8: { title: "Final Report & After-care", desc: "Performance report plus ongoing sales support" }
     },
     why: {
-      eyebrow: "Why DN INTL.", title: "A hands-on partner,<br>with real feet on the ground",
+      eyebrow: "Why DN INTL.", title: "Local execution, delivered by a <span class=\"accent\">hands-on partner</span>",
       lede: "Not a consultancy that just hands you a report — our local partner teams execute alongside you.",
       i1: { title: "Run directly with local partners across China", desc: "Our vetted partnership network across major Chinese cities gives us real local execution power." },
       i2: { title: "30M+ follower influencer network", desc: "Large MCN networks across WeChat Channels, Kuaishou and Xiaohongshu let us read the market fast." },
       i3: { title: "Test first, then scale", desc: "We de-risk with live-commerce test sales before moving to full distribution." },
       i4: { title: "One-stop after-care", desc: "We keep managing sales, settlement and compliance long after the MOU is signed." },
-      panel: { quote: "\"Real local influencers, real stores, real product pages, real feedback — we validate genuine local consumer response with data, confirm the odds of success, and only then scale.\"", name: "DN INTL. Partnership Network", role: "Korea–China business partnership" }
+      panel: { quote: "\"Real local influencers, real stores, real product pages, real feedback — a system that validates real Chinese consumer response with data, confirms the odds of success, and only then scales.\"", name: "DN INTL. Partnership Network", role: "Korea–China business partnership" }
     },
     route: {
       kr: { title: "Korea", desc: "DN INTL. headquarters<br>Korean brand sourcing & scouting" },
@@ -129,7 +129,7 @@ window.I18N_DICT = {
       p2: { desc: "An influencer and livestream-commerce resource network with 30M+ combined followers across WeChat Channels, Kuaishou and Xiaohongshu.", name: "Influencer · MCN Network", role: "MCN · Influencer Network" },
       p3: { desc: "DN INTL.'s domestic sourcing network, scouting Korean SMEs and startups and connecting them with Chinese partners and investors.", name: "Korean Brand Sourcing Network", role: "DN INTL. · Domestic Partnership" }
     },
-    cta: { title: "Ready to enter the China market?", lede: "From market research to livestream testing and MOU execution — your first consultation is free.", btn: "Book a free consultation" },
+    cta: { title: "Ready to enter the China market?", lede: "From market research to livestream testing and MOU execution — <span style=\"white-space:nowrap\">your first consultation is free.</span>", btn: "Book a free consultation" },
     contact: {
       eyebrow: "Contact", title: "Talk to us about your China entry", lede: "Our team will get back to you within 1–2 business days.",
       phone: { label: "Phone" }, email: { label: "Email" }, office: { label: "Locations", value: "Korea · Major Chinese Cities" }
@@ -184,13 +184,13 @@ window.I18N_DICT = {
       p8: { title: "结果报告 & 售后管理", desc: "提供成果报告并支持后续销售" }
     },
     why: {
-      eyebrow: "为何选择我们", title: "扎根本地的<br>执行型合作伙伴",
+      eyebrow: "为何选择我们", title: "扎根本地的<span class=\"accent\">执行型合作伙伴</span>",
       lede: "不止是提交报告的咨询公司 —— 中国本地合作伙伴团队直接参与执行。",
       i1: { title: "与中国本地合作伙伴直接协作运营", desc: "覆盖中国主要城市的经过验证的合作伙伴网络，让我们具备真正的本地执行力。" },
       i2: { title: "3000万+粉丝网红网络", desc: "微信视频号、快手、小红书等大型MCN网络，快速验证市场反应。" },
       i3: { title: "先测试，后扩张", desc: "通过直播电商测试销售降低风险，再进行正式渠道扩张。" },
       i4: { title: "一站式售后管理", desc: "MOU签约后持续跟进销售、结算与合规事项。" },
-      panel: { quote: "\"真实的本地网红 · 门店 · 商品页面 · 反馈 —— 用数据验证当地真实消费者反应，确认成功可能性后再进行扩张。\"", name: "DN INTL. 合作伙伴网络", role: "韩中商务合作伙伴关系" }
+      panel: { quote: "\"真实的本地网红 · 门店 · 商品页面 · 反馈 —— 用数据验证中国当地消费者的真实反应，确认成功可能性后再进行扩张的体系。\"", name: "DN INTL. 合作伙伴网络", role: "韩中商务合作伙伴关系" }
     },
     route: {
       kr: { title: "韩国", desc: "DN INTL. 总部<br>韩国品牌寻源 & 发掘" },
@@ -204,7 +204,7 @@ window.I18N_DICT = {
       p2: { desc: "在微信视频号、快手、小红书等平台合计拥有3000万+粉丝的网红与直播电商资源网络。", name: "网红 · MCN 网络", role: "MCN · 网红网络" },
       p3: { desc: "DN INTL. 的国内寻源网络，发掘韩国中小企业与初创品牌，并与中国合作伙伴、投资方对接。", name: "韩国品牌寻源网络", role: "DN INTL. · 国内合作伙伴" }
     },
-    cta: { title: "想要进入中国市场？现在就咨询吧", lede: "从市场调研到直播测试、MOU签约 —— 首次咨询完全免费。", btn: "申请免费咨询" },
+    cta: { title: "想要进入中国市场？现在就咨询吧", lede: "从市场调研到直播测试、MOU签约 —— <span style=\"white-space:nowrap\">首次咨询完全免费。</span>", btn: "申请免费咨询" },
     contact: {
       eyebrow: "联系我们", title: "现在就咨询中国市场进入", lede: "负责人确认后将在1-2个工作日内与您联系。",
       phone: { label: "电话咨询" }, email: { label: "邮箱咨询" }, office: { label: "据点", value: "韩国 · 中国主要城市" }
