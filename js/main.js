@@ -60,19 +60,34 @@
     countEls.forEach(function (el) { countIo.observe(el); });
   }
 
-  var form = document.querySelector('.contact-form form');
+  var form = document.getElementById('contact-form');
   if (form) {
+    var FORM_ENDPOINT = 'https://formsubmit.co/ajax/redpin0608@gmail.com';
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       var btn = form.querySelector('button[type="submit"]');
       var original = btn.textContent;
-      btn.textContent = window.I18N ? I18N.t('form.sent') : '전송되었습니다';
       btn.disabled = true;
-      setTimeout(function () {
-        btn.textContent = original;
-        btn.disabled = false;
-        form.reset();
-      }, 2400);
+
+      fetch(FORM_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      })
+        .then(function (res) {
+          if (!res.ok) throw new Error('submit failed');
+          btn.textContent = window.I18N ? I18N.t('form.sent') : '전송되었습니다';
+          form.reset();
+        })
+        .catch(function () {
+          btn.textContent = window.I18N ? I18N.t('form.error') : '전송에 실패했습니다';
+        })
+        .finally(function () {
+          setTimeout(function () {
+            btn.textContent = original;
+            btn.disabled = false;
+          }, 2800);
+        });
     });
   }
 })();

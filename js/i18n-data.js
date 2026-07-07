@@ -1,7 +1,7 @@
 window.I18N_DICT = {
   ko: {
     brand: { sub: "다은인터내셔널" },
-    nav: { services: "서비스", process: "진출 프로세스", why: "왜 DN INTL.", partners: "파트너 네트워크", contact: "문의하기", cta: "상담 신청" },
+    nav: { services: "서비스", process: "진출 프로세스", why: "DN INTL.", partners: "파트너 네트워크", contact: "문의하기", cta: "상담 신청" },
     hero: {
       badge: "한중 무역 & 중국시장 진출 공식 파트너",
       title: "한국 브랜드의 <span class=\"accent\">가능성</span>을,<br>중국 시장에서 현실로 만듭니다",
@@ -34,13 +34,13 @@ window.I18N_DICT = {
       p8: { title: "최종 리포트 & 사후관리", desc: "성과 리포트 제공 및 후속 판매 지원" }
     },
     why: {
-      eyebrow: "Why DN INTL.", title: "현지에 직접 거점을 둔 <span class=\"accent\">실행형 파트너</span>",
+      eyebrow: "DN INTL.", title: "현지에 직접 거점을 둔 <span class=\"accent\">실행형 파트너</span>",
       lede: "보고서만 전달하는 컨설팅이 아니라, 중국 현지 파트너 팀이 직접 실행까지 책임집니다.",
       i1: { title: "중국 현지 파트너와 직접 협력 운영", desc: "중국 주요 도시의 검증된 파트너십 네트워크로 현지 실행력을 확보했습니다." },
       i2: { title: "3,000만+ 팔로워 인플루언서 네트워크", desc: "위챗채널·콰이쇼우·샤오홍슈 등 대형 MCN 네트워크로 빠른 시장 반응을 확인합니다." },
       i3: { title: "선(先) 테스트, 후(後) 확장", desc: "라이브커머스 테스트 판매로 리스크를 최소화한 뒤 정식 유통 확장을 진행합니다." },
       i4: { title: "원스톱 사후관리", desc: "MOU 체결 이후 후속 판매·정산·컴플라이언스까지 지속 관리합니다." },
-      panel: { quote: "\"실제 현지 인플루언서 · 스토어 · 상품페이지 · 피드백<br>— 현지 중국 소비자들의 반응을 데이터로 검증한 후, 판매를 확장하는 시스템입니다.\"", name: "DN INTL. 파트너십 네트워크", role: "한중 비즈니스 협력 파트너십" }
+      panel: { quote: "\"실제 현지 인플루언서 · 스토어 · 상품페이지 · 피드백\"<br>현지 중국 소비자들의 반응을 데이터로 검증한 후, 판매를 확장하는 시스템입니다.", name: "DN INTL. 파트너십 네트워크", role: "한중 비즈니스 협력 파트너십" }
     },
     route: {
       kr: { title: "Korea", desc: "DN INTL. 본사<br>한국 브랜드 소싱 & 발굴" },
@@ -65,18 +65,18 @@ window.I18N_DICT = {
       interest: "관심 서비스",
       opt1: "비즈니스 매칭 / MOU", opt2: "온라인 유통망 입점", opt3: "라이브커머스 테스트", opt4: "오프라인 유통 입점", opt5: "투자 매칭", opt6: "시장조사 / 현지화 컨설팅",
       message: "문의 내용", "message.ph": "문의하실 내용을 자유롭게 남겨주세요.",
-      submit: "상담 신청하기", note: "* 데모 페이지입니다. 실제 발송을 위해서는 이메일/폼 연동 설정이 필요합니다.", sent: "전송되었습니다 ✓"
+      submit: "상담 신청하기", note: "* 입력하신 내용은 담당자 이메일로 바로 전송됩니다.", sent: "전송되었습니다 ✓", error: "전송에 실패했습니다. 잠시 후 다시 시도해주세요."
     },
     footer: {
       desc: "다은인터내셔널(DN INTL.)은 중국 주요 도시의 검증된 현지 파트너 네트워크를 기반으로 한국 브랜드의 중국 시장 진출을 지원하는 한중 무역 전문 회사입니다.",
-      company: "회사", link: { why: "왜 DN INTL.", partners: "파트너 네트워크", process: "진출 프로세스" },
+      company: "회사", link: { why: "DN INTL.", partners: "파트너 네트워크", process: "진출 프로세스" },
       services: "서비스", contact: "연락처", reg: "사업자등록번호 317-17-01486",
       copyright: "© 2026 DN INTL. (다은인터내셔널). All rights reserved.", tagline: "GATEWAY TO CHINA MARKET"
     }
   },
   en: {
     brand: { sub: "Daeun International" },
-    nav: { services: "Services", process: "Roadmap", why: "Why DN INTL.", partners: "Network", contact: "Contact", cta: "Get in touch" },
+    nav: { services: "Services", process: "Roadmap", why: "DN INTL.", partners: "Network", contact: "Contact", cta: "Get in touch" },
     hero: {
       badge: "Official Korea–China Trade & Market-Entry Partner",
       title: "Turning Korean brands' <span class=\"accent\">potential</span><br>into reality in the China market",
@@ -109,13 +109,13 @@ window.I18N_DICT = {
       p8: { title: "Final Report & After-care", desc: "Performance report plus ongoing sales support" }
     },
     why: {
-      eyebrow: "Why DN INTL.", title: "Local execution, delivered by a <span class=\"accent\">hands-on partner</span>",
+      eyebrow: "DN INTL.", title: "Local execution, delivered by a <span class=\"accent\">hands-on partner</span>",
       lede: "Not a consultancy that just hands you a report — our local partner teams execute alongside you.",
       i1: { title: "Run directly with local partners across China", desc: "Our vetted partnership network across major Chinese cities gives us real local execution power." },
       i2: { title: "30M+ follower influencer network", desc: "Large MCN networks across WeChat Channels, Kuaishou and Xiaohongshu let us read the market fast." },
       i3: { title: "Test first, then scale", desc: "We de-risk with live-commerce test sales before moving to full distribution." },
       i4: { title: "One-stop after-care", desc: "We keep managing sales, settlement and compliance long after the MOU is signed." },
-      panel: { quote: "\"Real local influencers, real stores, real product pages, real feedback<br>— a system that validates real Chinese consumer response with data, then scales sales.\"", name: "DN INTL. Partnership Network", role: "Korea–China business partnership" }
+      panel: { quote: "\"Real local influencers, real stores, real product pages, real feedback\"<br>A system that validates real Chinese consumer response with data, then scales sales.", name: "DN INTL. Partnership Network", role: "Korea–China business partnership" }
     },
     route: {
       kr: { title: "Korea", desc: "DN INTL. headquarters<br>Korean brand sourcing & scouting" },
@@ -140,18 +140,18 @@ window.I18N_DICT = {
       interest: "Service of interest",
       opt1: "Business Matching / MOU", opt2: "Online Distribution", opt3: "Livestream Commerce Test", opt4: "Offline Retail Entry", opt5: "Investment Matching", opt6: "Market Research / Localization",
       message: "Message", "message.ph": "Tell us about your inquiry.",
-      submit: "Send inquiry", note: "* This is a demo page. Connect an email/form service to enable real submissions.", sent: "Sent ✓"
+      submit: "Send inquiry", note: "* Your message is sent directly to our team's inbox.", sent: "Sent ✓", error: "Something went wrong. Please try again in a moment."
     },
     footer: {
       desc: "DN INTL. partners with a vetted local network across major Chinese cities to help Korean brands enter the Chinese market — a dedicated Korea–China trade company.",
-      company: "Company", link: { why: "Why DN INTL.", partners: "Network", process: "Roadmap" },
+      company: "Company", link: { why: "DN INTL.", partners: "Network", process: "Roadmap" },
       services: "Services", contact: "Contact", reg: "Business Reg. No. 317-17-01486",
       copyright: "© 2026 DN INTL. (Daeun International). All rights reserved.", tagline: "GATEWAY TO CHINA MARKET"
     }
   },
   zh: {
     brand: { sub: "多恩国际" },
-    nav: { services: "服务项目", process: "进入流程", why: "为何选择 DN INTL.", partners: "合作网络", contact: "联系我们", cta: "咨询申请" },
+    nav: { services: "服务项目", process: "进入流程", why: "DN INTL.", partners: "合作网络", contact: "联系我们", cta: "咨询申请" },
     hero: {
       badge: "韩中贸易 & 中国市场进入官方合作伙伴",
       title: "把韩国品牌的<span class=\"accent\">潜力</span>，<br>变成中国市场的现实",
@@ -190,7 +190,7 @@ window.I18N_DICT = {
       i2: { title: "3000万+粉丝网红网络", desc: "微信视频号、快手、小红书等大型MCN网络，快速验证市场反应。" },
       i3: { title: "先测试，后扩张", desc: "通过直播电商测试销售降低风险，再进行正式渠道扩张。" },
       i4: { title: "一站式售后管理", desc: "MOU签约后持续跟进销售、结算与合规事项。" },
-      panel: { quote: "\"真实的本地网红 · 门店 · 商品页面 · 反馈<br>—— 用数据验证中国当地消费者的真实反应后，扩大销售的体系。\"", name: "DN INTL. 合作伙伴网络", role: "韩中商务合作伙伴关系" }
+      panel: { quote: "\"真实的本地网红 · 门店 · 商品页面 · 反馈\"<br>用数据验证中国当地消费者的真实反应后，扩大销售的体系。", name: "DN INTL. 合作伙伴网络", role: "韩中商务合作伙伴关系" }
     },
     route: {
       kr: { title: "韩国", desc: "DN INTL. 总部<br>韩国品牌寻源 & 发掘" },
@@ -215,7 +215,7 @@ window.I18N_DICT = {
       interest: "感兴趣的服务",
       opt1: "商务对接 / MOU", opt2: "线上渠道入驻", opt3: "直播电商测试", opt4: "线下渠道入驻", opt5: "投资对接", opt6: "市场调研 / 本地化咨询",
       message: "咨询内容", "message.ph": "请自由填写咨询内容。",
-      submit: "提交咨询申请", note: "* 本页面为演示页面，需接入邮件/表单服务后方可实际发送。", sent: "已发送 ✓"
+      submit: "提交咨询申请", note: "* 提交内容将直接发送至负责人邮箱。", sent: "已发送 ✓", error: "发送失败，请稍后重试。"
     },
     footer: {
       desc: "DN INTL.（多恩国际）携手中国主要城市经过验证的本地合作伙伴网络，助力韩国品牌进入中国市场，是专业的韩中贸易公司。",
