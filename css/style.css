@@ -92,7 +92,7 @@ button { font-family: inherit; cursor: pointer; }
 
 .section-head { max-width: 680px; margin: 0 0 56px; }
 .section-head.center { margin-left: auto; margin-right: auto; text-align: center; }
-.section-head h2 { font-size: clamp(28px, 3.2vw, 38px); }
+.section-head h2 { font-size: clamp(24px, 2.9vw, 34px); }
 .section-head p { margin-top: 16px; color: var(--color-ink-soft); font-size: 17px; }
 .section--navy .section-head p { color: rgba(255,255,255,0.72); }
 
